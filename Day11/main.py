@@ -10,12 +10,15 @@ except ValueError as e:
     print("error: ",e)
 
 
-class AgeError:
+class AgeError(Exception):
     pass
 
 def check_age(age):
     if age < 0:
-        print('age never be negative')
+        raise AgeError('age never be negative')
     print('Age is: ', age)
 
-check_age(-19)
+try:
+    check_age(-19)
+except AgeError as e:
+    print("age error: ", e)
