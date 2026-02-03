@@ -1,0 +1,14 @@
+{
+    "states":[
+        {
+            "name" : "Punjab",
+            "abbr" : "PB",
+            "area_codes" : ["10", "28", "29", "91", "8"]
+        },
+        {
+            "name" : "Haryana",
+            "abbr" : "HR",
+            "area_codes" : ["24"]
+        }
+    ]
+}
