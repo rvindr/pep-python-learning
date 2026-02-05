@@ -1,0 +1,5 @@
+webpage
+website
+webapp  
+
+index.html and default.html only recognized by the browser
