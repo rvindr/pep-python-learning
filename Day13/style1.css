@@ -1,0 +1,37 @@
+body{
+    background: cyan;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.navbar ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 12px 12px ;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+@media (max-width:290px) {
+    .navbar ul{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar .material-symbols-outlined{
+        display: block;
+    }
+    .navbar ul li a{
+    display: none;
+}
+}

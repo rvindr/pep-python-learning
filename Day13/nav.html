@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 40px;
+            height: 100px;
+            top: 200px;
+            background-color: brown;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /* transform: rotate(240deg); */
+            /* transform: scale(2,5); */
+            animation: animation2 4s;
+
+        }
+
+        .box:hover {
+            /* transform: scale(2,4); */
+            /* transform: skew(12deg,31deg); */
+            height: 300px;
+            width: 200px;
+            background-color: green;
+            /* transition: transform 2s; */
+            transition: height 2s ease, width 2s ease, background-color 4s ease;
+            /* transition-delay: 3s; */
+        }
+
+        @keyframes animation1 {
+            /* from {
+                background-color: blue;
+            }
+
+            to {
+                background-color: black;
+                color: white;
+
+            } */
+            0%{background-color: yellow;}
+            25%{background-color: red;}
+            50%{background-color: blue;}
+            75%{background-color: green;}
+            100%{background-color: black;}
+        }
+        @keyframes animation2{
+            0%{transform: rotate(90deg);}
+            25%{transform: rotate(180deg);}
+            75%{transform: rotate(270deg);}
+            100%{transform: rotate(360deg);}
+        }
+
+        body {
+            background-color: white;
+            animation-name: animation1 ;
+            animation-duration: 5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fugiat.</p>
+        <div class="box"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus facere illum, iure labore praesentium
+            laudantium atque adipisci animi quibusdam corrupti vero doloremque cupiditate dolorum, ipsa, eaque pariatur
+            voluptas beatae sed eum magni quaerat officiis enim. At voluptas quis optio delectus! Illum ducimus dolores
+            cum, dicta fuga ipsam. Dolorem totam dicta cum aliquid nihil nam perferendis maiores reprehenderit earum,
+            saepe enim provident id nostrum quae distinctio placeat unde obcaecati ab praesentium debitis veritatis!
+            Totam fugit nisi rem officiis sed, quam officia labore repudiandae debitis fuga magni atque. Ex unde laborum
+            nisi facilis sunt itaque excepturi odit, atque, corporis, deleniti veniam error.</p>
+    </div>
+</body>
+
+</html>
