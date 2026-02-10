@@ -21,9 +21,10 @@ body {
 }
 
 .logo {
-    color: red;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    font-size: 50px;
 }
 
 .nav-items {
@@ -37,7 +38,7 @@ body {
 }
 
 .nav-items li a {
-    color: red;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
