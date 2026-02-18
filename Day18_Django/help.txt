@@ -1,0 +1,9 @@
+mvc- model view controller
+
+django based on model template view | model view template 
+model createing schema 
+view show to frontend
+template showing layout html
+
+
+asgi and wsgi 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1 class="bg-dark text-white text-center">ToDo List</h1>
+    <div class="row justify-content-center">
+        <div class="col-6 text-center ">
+            <div class="container">
+                <input class="form-control" type="text" placeholder="Enter your task" id="task">
+                <button class="btn btn-primary m-2" type="button" onclick="addTask()">Add Task</button>
+            </div>
+            <ul class="container list-group text-start" id="task_list"></ul>
+        </div>
+    </div>
+
+
+    <!-- <div class="container">
+        <button class="btn btn-primary" type="button" onclick="addcard()">Add Task</button>
+    </div>
+    <div class="container" id="rvi">
+
+    </div> -->
+
+    <script src="todo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

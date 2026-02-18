@@ -98,3 +98,18 @@ function tble() {
     }
     tb.innerHTML = tbl;
 }
+
+
+function printtable(){
+    n = document.getElementById("num").value;
+    tb = document.getElementById("tablebody");
+    tb.innerHTML = "" // clean the table body
+    for (let i=1;i<=10;i++){
+        let row = document.createElement("tr");  //creating a row
+        let col = document.createElement("td"); // creating a column
+        col.textContent = n + " x " + i + " = "+(n*i);
+        row.appendChild(col);
+        tb.appendChild(row)
+
+    }
+}
